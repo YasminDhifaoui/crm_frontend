@@ -54,10 +54,7 @@ function AgentCDashboard() {
       if (progressData.success && progressData.objective > 0) {
         setProgress(progressData);
 
-        const percent = Math.min(
-          100,
-          Math.round((progressData.realized / progressData.objective) * 100)
-        );
+      
       } else {
         setProgress({ realized: 0, objective: 0 });
       }
