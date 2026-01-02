@@ -1,6 +1,5 @@
 import { BASE_URL } from "../../api/base";
 
-import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const dossiersListAgent = async() => {
@@ -77,7 +76,6 @@ export const archiveDossier = async (id) => {
       body: JSON.stringify({ id }),
     });
 
-    const data = await response.json();
 
     if (response.ok) {
       return { success: true };
@@ -119,7 +117,6 @@ export const unarchiveDossier = async (id) => {
       body: JSON.stringify({ id }),
     });
 
-    const data = await response.json();
     if (response.ok) {
       return true;
     } else {

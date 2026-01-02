@@ -5,8 +5,7 @@ import {
   HomeIcon,
   UserIcon,
   EnvelopeIcon,
-  ArrowRightOnRectangleIcon,
-   ArchiveBoxIcon,DocumentIcon
+  ArrowRightOnRectangleIcon
 
 } from "@heroicons/react/24/outline";
 

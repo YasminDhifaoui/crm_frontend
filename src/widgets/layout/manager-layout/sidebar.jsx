@@ -6,8 +6,7 @@ import {
   UserIcon,
   EnvelopeIcon,
   ArrowRightOnRectangleIcon,
-   ArchiveBoxIcon,DocumentIcon
-
+  ArchiveBoxIcon,
 } from "@heroicons/react/24/outline";
 
 // Sidebar routes data
@@ -34,16 +33,16 @@ const SidebarRoutes = [
         icon: <EnvelopeIcon className="h-6 w-6 text-white" />,
         color: "bg-green-900",
       },
-     /* {
+      /* {
         name: "Leads",
         path: "/leads",
         icon: <DocumentIcon className="h-6 w-6 text-white" />,
         color: "bg-purple-900",
       },*/
-       {
+      {
         name: "Archive",
         path: "/archiveList",
-        icon: < ArchiveBoxIcon className="h-6 w-6 text-white" />,
+        icon: <ArchiveBoxIcon className="h-6 w-6 text-white" />,
         color: "bg-yellow-700",
       },
       {

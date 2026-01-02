@@ -3,10 +3,9 @@ import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import {
   HomeIcon,
-  UserIcon,
   EnvelopeIcon,
   ArrowRightOnRectangleIcon,
-   ArchiveBoxIcon,DocumentIcon
+   ArchiveBoxIcon
 
 } from "@heroicons/react/24/outline";
 

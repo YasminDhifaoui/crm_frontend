@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { PICTURE_URL } from "../../api/base";
 
 export default function StaticBarChart({ data }) {

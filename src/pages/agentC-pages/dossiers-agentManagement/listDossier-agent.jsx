@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Select from "react-select";
-import { BASE_URL, PICTURE_URL } from "../../../api/base";
+import { PICTURE_URL } from "../../../api/base";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

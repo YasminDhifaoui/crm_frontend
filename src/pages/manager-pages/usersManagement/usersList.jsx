@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { PICTURE_URL } from "../../../api/base";
 import { userList as fetchUserList } from "../../../services/manager_services/usersService";
 import {
@@ -17,7 +16,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export function UserList() {
-  const navigate = useNavigate();
 
   const [users, setUsers] = useState([]);
   const [filteredUsers, setFilteredUsers] = useState([]);
@@ -109,7 +107,6 @@ export function UserList() {
     const baseClasses =
       "px-4 py-2 rounded font-medium transition-colors duration-200 ";
     const activeClasses = " text-white shadow-lg ";
-    const inactiveClasses = " border ";
 
     switch (role) {
       case "manager":

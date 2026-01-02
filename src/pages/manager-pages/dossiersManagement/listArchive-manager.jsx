@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BASE_URL } from "../../../api/base";
 
 import { toast, ToastContainer } from "react-toastify";
 import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";

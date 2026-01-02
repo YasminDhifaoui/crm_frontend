@@ -164,7 +164,7 @@ export function SignIn() {
 
             {/* Forgot Password */}
             <div className="text-center mt-4">
-              <a href="#" className="text-sm text-blue-400 hover:underline">
+              <a href="/login" className="text-sm text-blue-400 hover:underline">
                 Mot de passe oublié?
               </a>
             </div>

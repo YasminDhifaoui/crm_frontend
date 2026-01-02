@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Typography, Card, Button, Input } from "@material-tailwind/react";
-import { ArrowUpIcon, ClockIcon } from "@heroicons/react/24/outline";
+import {  Button, Input } from "@material-tailwind/react";
 import CircularProgress from "../../widgets/statics/CircularProgress";
 import CurrentDateTime from "../../widgets/layout/CurrentDateTime";
 import NavbarAgent from "../../widgets/layout/agentC-layout/navbar-agent";

@@ -119,7 +119,6 @@ export const archiveDossiersManager = async (id)=>{
       body: JSON.stringify({ id }),
     });
 
-    const data = await response.json();
 
     if (response.ok) {
       return { success: true };
@@ -158,7 +157,7 @@ try {
       body: JSON.stringify({ id }),
     });
 
-    const data = await response.json();
+
     if (response.ok) {
       return true;
     } else {

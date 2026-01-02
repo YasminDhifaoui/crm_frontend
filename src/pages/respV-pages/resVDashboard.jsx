@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Typography, Card, Button, Input } from "@material-tailwind/react";
-import { ArrowUpIcon, ClockIcon } from "@heroicons/react/24/outline";
-import CircularProgress from "../../widgets/statics/CircularProgress";
-import CurrentDateTime from "../../widgets/layout/CurrentDateTime";
-import { getSessionUser } from "../../services/auth-services/authService";
+import React, { useEffect } from "react";
 import NavbarResp from "../../widgets/layout/resp-layout/navbar-resp"
 import SidebarResp from "../../widgets/layout/resp-layout/sidebar-resp"
 
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 function ResVDashboard() {
-  const [message, setMessage] = useState("");
 
 
  
@@ -20,18 +14,7 @@ function ResVDashboard() {
  
   }, []);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-   
-
-    try {
-     
-    } catch (err) {
-      console.error("Error saving objective:", err);
-      setMessage("❌ Failed to save objective.");
-      toast.error("error");
-    }
-  };
+ 
 
   return (
     <div className="min-h-screen bg-gray-300 text-white font-[Georgia] relative flex flex-col mt-20">
